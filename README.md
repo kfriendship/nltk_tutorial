@@ -1,6 +1,6 @@
 
 
-## setup virtual environment 
+## Setup virtual environment 
 
 ```
 python3 -m venv ~/nltk
