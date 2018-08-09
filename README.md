@@ -1,4 +1,39 @@
 
+
+## setup virtual environment 
+
+```
+python3 -m venv ~/nltk
+```
+
+To activate the virtual environment, 
+```
+source ~/nltk/bin/activate
+```
+
+To deactivate the current virtual environment,
+```
+deactivate
+```
+
+## Install required packages 
+
+```
+pip install wordcloud konlpy nltk sklearn gensim jupyter matplotlib pandas
+```
+
+
+Optionally, install tensorflow *WITHOUT* GPU.
+```
+pip tensorflow
+```
+
+Or, install Tensorflow *WITH* GPU.
+```
+pip tensorflow-gpu
+```
+
+
 ## NLTK 설치가 안되는 경우
 
 <figure class="align-left">
