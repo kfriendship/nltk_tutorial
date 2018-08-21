@@ -34,6 +34,18 @@ pip tensorflow-gpu
 ```
 
 
+## For KoNLpy, you need a JVM
+
+On Ubuntu, 
+```
+sudo apt-get update
+sudo apt-get install default-jre
+```
+
+On an OSX, download Java SE Runtime Environment 8 from [here](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
+
+
+
 ## NLTK 설치가 안되는 경우
 
 <figure class="align-left">
