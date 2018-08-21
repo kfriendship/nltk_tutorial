@@ -46,23 +46,9 @@ On an OSX,
 
 1. download Java SE Runtime Environment 8 from [here](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
 
-2. Set up path for Java
-Check Java path by running
-```
-/usr/libexec/java_home
-```
-
-In my case the result was `/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home`.
-
-Add the info to `.bash_profile'.
-```
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
-export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin
-```
-
-
-
+2. Set up path for Java (**TO CHECK**)
 (https://stackoverflow.com/questions/15826202/where-is-java-installed-on-mac-os-x)
+(https://stackoverflow.com/questions/13918475/where-is-oracles-suns-jdk-jre-installed-on-mac-os-x-10-8-mountain-lion)
 
 
 
